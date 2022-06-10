@@ -1,0 +1,15 @@
+
+
+*// inslação do tailwind
+npm init -y
+npm tailwindcss init
+npm intall tailwindcss@latest postcss@latest autoprefixer@latest
+
+
+
+*// para chamar todos a folha de stylo do tailwindcss
+npx tailwindcss-cli@latest buil -o (caminho da pasta de estilo)
+
+
+
+*// par atualizar o css após criar um componente
