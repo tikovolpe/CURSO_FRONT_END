@@ -2,15 +2,20 @@
 
 *// inslação do tailwind
 npm init -y
-npm tailwindcss init
-npm intall tailwindcss@latest postcss@latest autoprefixer@latest
+npx tailwindcss init
+npm install tailwindcss@latest postcss@latest autoprefixer@latest
 
+*// inslação do tailwind 3.0
+npm install tailwindcss
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 
-
-*// para chamar todos a folha de stylo do tailwindcss
+*// para chamar toda a folha de stylo do tailwindcss
 npx tailwindcss-cli@latest build -o (caminho da pasta de estilo)
-
-
 
 *// par atualizar o css após criar um componente
 npx tailwindcss-cli@latest build ./style.css -o ./assets/css/style.css
+
+*// css tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
